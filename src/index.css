@@ -1,2 +1,12 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui"{
+    themes: light --default;
+}
+
+body {
+    /* object-position: center; */
+    background-image: url("https://media.istockphoto.com/id/1388635225/photo/businessman-click-on-skills.jpg?s=2048x2048&w=is&k=20&c=242_OE9IZFJBXswbm-YQjdU6I_yf9c18aZLecDXqmXs=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
