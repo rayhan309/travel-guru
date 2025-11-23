@@ -1,5 +1,5 @@
 [
-  {
+    {
     "skillId": 1,
     "skillName": "Beginner Guitar Lessons",
     "providerName": "Alex Martin",
@@ -8,7 +8,7 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://images.pexels.com/photos/8190069/pexels-photo-8190069.jpeg",
     "category": "Music"
   },
   {
@@ -20,7 +20,7 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Learn SEO, social media, and marketing fundamentals.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://images.pexels.com/photos/7681097/pexels-photo-7681097.jpeg",
     "category": "Marketing"
   },
   {
@@ -32,7 +32,7 @@
     "rating": 4.4,
     "slotsAvailable": 4,
     "description": "Master camera settings and composition techniques.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://images.pexels.com/photos/11022628/pexels-photo-11022628.jpeg",
     "category": "Photography"
   },
   {
@@ -44,7 +44,7 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Learn to cook simple and delicious meals.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://images.pexels.com/photos/10432431/pexels-photo-10432431.jpeg",
     "category": "Cooking"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 4.9,
     "slotsAvailable": 6,
     "description": "Learn how to build responsive websites.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://images.pexels.com/photos/12899182/pexels-photo-12899182.jpeg",
     "category": "Programming"
   },
   {
@@ -68,7 +68,7 @@
     "rating": 4.3,
     "slotsAvailable": 10,
     "description": "Start your yoga journey with basic poses.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://images.pexels.com/photos/4853689/pexels-photo-4853689.jpeg",
     "category": "Fitness"
   },
   {
@@ -80,7 +80,7 @@
     "rating": 4.5,
     "slotsAvailable": 8,
     "description": "Improve your spoken English with real conversations.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://images.pexels.com/photos/4943722/pexels-photo-4943722.jpeg",
     "category": "Language"
   },
   {
@@ -92,7 +92,7 @@
     "rating": 4.2,
     "slotsAvailable": 5,
     "description": "Learn pencil sketching and shading techniques.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://images.pexels.com/photos/7283265/pexels-photo-7283265.jpeg",
     "category": "Art"
   },
   {
@@ -104,7 +104,7 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Build cross-platform mobile apps from scratch.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://images.pexels.com/photos/1181341/pexels-photo-1181341.jpeg",
     "category": "Programming"
   },
   {
@@ -116,7 +116,7 @@
     "rating": 4.6,
     "slotsAvailable": 3,
     "description": "Learn to edit videos for YouTube and social media.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://images.pexels.com/photos/6919966/pexels-photo-6919966.jpeg",
     "category": "Media"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.7,
     "slotsAvailable": 7,
     "description": "Algebra, geometry, and basic trigonometry lessons.",
-    "image": "https://i.postimg.cc/example11.png",
+    "image": "https://images.pexels.com/photos/3768129/pexels-photo-3768129.jpeg",
     "category": "Education"
   },
   {
@@ -140,7 +140,7 @@
     "rating": 4.8,
     "slotsAvailable": 5,
     "description": "Boost your confidence and presentation skills.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://images.pexels.com/photos/34774345/pexels-photo-34774345.jpeg",
     "category": "Communication"
   },
   {
@@ -152,7 +152,7 @@
     "rating": 4.4,
     "slotsAvailable": 6,
     "description": "Create social media posts and simple designs easily.",
-    "image": "https://i.postimg.cc/example13.png",
+    "image": "https://media.istockphoto.com/id/1415537875/photo/asian-graphic-designer-working-in-office-artist-creative-designer-illustrator-graphic-skill.jpg?s=612x612&w=is&k=20&c=zIRirXeGJ4ft-1B3DvuT_loLu4zRl88vCaHjjQlK66Y=",
     "category": "Design"
   },
   {
@@ -164,7 +164,7 @@
     "rating": 4.7,
     "slotsAvailable": 4,
     "description": "Master formulas, charts, and data analysis.",
-    "image": "https://i.postimg.cc/example14.png",
+    "image": "https://images.pexels.com/photos/7709190/pexels-photo-7709190.jpeg",
     "category": "Business"
   },
   {
@@ -176,7 +176,7 @@
     "rating": 4.5,
     "slotsAvailable": 9,
     "description": "Learn proper form and basic strength workouts.",
-    "image": "https://i.postimg.cc/example15.png",
+    "image": "https://images.pexels.com/photos/6203649/pexels-photo-6203649.jpeg",
     "category": "Fitness"
   },
   {
@@ -188,7 +188,7 @@
     "rating": 4.3,
     "slotsAvailable": 10,
     "description": "Improve handwriting style & clarity in Bangla.",
-    "image": "https://i.postimg.cc/example16.png",
+    "image": "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg",
     "category": "Education"
   }
 ]

@@ -8,7 +8,7 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.postimg.cc/skill01.png",
+    "image": "https://images.pexels.com/photos/8192092/pexels-photo-8192092.jpeg?_gl=1*12yshux*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODQ2MzQkajQwJGwwJGgw",
     "category": "Music"
   },
   {
@@ -20,7 +20,7 @@
     "rating": 4.7,
     "slotsAvailable": 4,
     "description": "Learn advanced techniques and performance-level piano.",
-    "image": "https://i.postimg.cc/skill02.png",
+    "image": "https://images.pexels.com/photos/7521177/pexels-photo-7521177.jpeg?_gl=1*2m8i59*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODQ4MDQkajE4JGwwJGgw",
     "category": "Music"
   },
   {
@@ -32,7 +32,7 @@
     "rating": 4.5,
     "slotsAvailable": 5,
     "description": "Master basic camera settings and composition.",
-    "image": "https://i.postimg.cc/skill03.png",
+    "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?_gl=1*12nt1g8*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODQ4NzIkajI2JGwwJGgw",
     "category": "Photography"
   },
   {
@@ -44,7 +44,7 @@
     "rating": 4.6,
     "slotsAvailable": 2,
     "description": "Capture stunning human portraits with lighting techniques.",
-    "image": "https://i.postimg.cc/skill04.png",
+    "image": "https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?_gl=1*apknnu*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODQ5MjckajUzJGwwJGgw",
     "category": "Photography"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 4.9,
     "slotsAvailable": 7,
     "description": "Learn to cook authentic Bangladeshi meals.",
-    "image": "https://i.postimg.cc/skill05.png",
+    "image": "https://images.pexels.com/photos/6937476/pexels-photo-6937476.jpeg?_gl=1*a8i7ll*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUwMTIkajQ5JGwwJGgw",
     "category": "Cooking"
   },
   {
@@ -68,7 +68,7 @@
     "rating": 4.6,
     "slotsAvailable": 3,
     "description": "Master bakery-style cakes and pastries.",
-    "image": "https://i.postimg.cc/skill06.png",
+    "image": "https://images.pexels.com/photos/10432861/pexels-photo-10432861.jpeg?_gl=1*94za4i*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUwMzckajI0JGwwJGgw",
     "category": "Cooking"
   },
   {
@@ -80,7 +80,7 @@
     "rating": 4.4,
     "slotsAvailable": 6,
     "description": "Learn SEO, social media marketing, and branding.",
-    "image": "https://i.postimg.cc/skill07.png",
+    "image": "https://images.pexels.com/photos/5717706/pexels-photo-5717706.jpeg?_gl=1*ms720*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUwOTIkajQ4JGwwJGgw",
     "category": "Marketing"
   },
   {
@@ -92,7 +92,7 @@
     "rating": 4.7,
     "slotsAvailable": 2,
     "description": "Build high-converting Facebook ad campaigns.",
-    "image": "https://i.postimg.cc/skill08.png",
+    "image": "https://images.pexels.com/photos/7172830/pexels-photo-7172830.jpeg?_gl=1*1y54sxn*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUxMjUkajE1JGwwJGgw",
     "category": "Marketing"
   },
   {
@@ -104,7 +104,7 @@
     "rating": 4.5,
     "slotsAvailable": 6,
     "description": "Learn to build websites from scratch using HTML and CSS.",
-    "image": "https://i.postimg.cc/skill09.png",
+    "image": "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?_gl=1*zsm09j*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUxNzEkajMyJGwwJGgw",
     "category": "Web Development"
   },
   {
@@ -116,7 +116,7 @@
     "rating": 4.8,
     "slotsAvailable": 4,
     "description": "Build modern responsive apps with React.",
-    "image": "https://i.postimg.cc/skill10.png",
+    "image": "https://images.pexels.com/photos/16129728/pexels-photo-16129728.jpeg?_gl=1*16pyfab*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUyMTckajYwJGwwJGgw",
     "category": "Web Development"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Understand UI/UX principles and design user-friendly layouts.",
-    "image": "https://i.postimg.cc/skill11.png",
+    "image": "https://media.istockphoto.com/id/1291971619/photo/web-development-and-web-design-concept-in-dark-blue-background-programming-for-internet.jpg?s=1024x1024&w=is&k=20&c=C09EuDVLjiyLuyTCmppja57Na-tvkh168fCdAYFeGHo=",
     "category": "Design"
   },
   {
@@ -140,7 +140,7 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Create professional logos using modern design tools.",
-    "image": "https://i.postimg.cc/skill12.png",
+    "image": "https://media.istockphoto.com/id/1003182080/photo/top-view-of-hands-using-laptop-and-holding-credit-card-with-social-media-diagram-as-online.jpg?s=612x612&w=is&k=20&c=FHKQmeGvYgONNDrBy6BYTM0RVqLssbr0Y43ap62C_zw=",
     "category": "Design"
   },
   {
@@ -152,7 +152,7 @@
     "rating": 4.4,
     "slotsAvailable": 6,
     "description": "Create social media posts and simple designs easily.",
-    "image": "https://i.postimg.cc/example13.png",
+    "image": "https://images.pexels.com/photos/3585001/pexels-photo-3585001.jpeg?_gl=1*80qm5a*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODUzNjEkajU5JGwwJGgw",
     "category": "Design"
   },
   {
@@ -164,7 +164,7 @@
     "rating": 4.5,
     "slotsAvailable": 8,
     "description": "Improve speaking fluency with daily practice.",
-    "image": "https://i.postimg.cc/skill14.png",
+    "image": "https://images.pexels.com/photos/11889670/pexels-photo-11889670.jpeg?_gl=1*1h7x327*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODU0MjkkajYwJGwwJGgw",
     "category": "Language"
   },
   {
@@ -176,7 +176,7 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Learn simple Japanese grammar and phrases.",
-    "image": "https://i.postimg.cc/skill15.png",
+    "image": "https://images.pexels.com/photos/19813732/pexels-photo-19813732.jpeg?_gl=1*20fduw*_ga*MjE0NTExMDM4My4xNzYzNTc4NzE1*_ga_8JE65Q40S6*czE3NjM4ODQ2MTQkbzMkZzEkdDE3NjM4ODU0NjkkajIwJGwwJGgw",
     "category": "Language"
   },
   {
@@ -188,7 +188,7 @@
     "rating": 4.4,
     "slotsAvailable": 7,
     "description": "Edit videos easily using CapCut mobile and desktop.",
-    "image": "https://i.postimg.cc/skill16.png",
+    "image": "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "category": "Video Editing"
   },
   {
@@ -200,7 +200,7 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Professional video editing for YouTube and film.",
-    "image": "https://i.postimg.cc/skill17.png",
+    "image": "https://images.pexels.com/photos/18015188/pexels-photo-18015188.jpeg",
     "category": "Video Editing"
   },
   {
@@ -212,7 +212,7 @@
     "rating": 4.7,
     "slotsAvailable": 2,
     "description": "Build cross-platform apps using Flutter.",
-    "image": "https://i.postimg.cc/skill18.png",
+    "image": "https://images.pexels.com/photos/4078342/pexels-photo-4078342.jpeg",
     "category": "App Development"
   },
   {
@@ -224,7 +224,7 @@
     "rating": 4.6,
     "slotsAvailable": 6,
     "description": "Learn Python step by step with hands-on practice.",
-    "image": "https://i.postimg.cc/skill19.png",
+    "image": "https://media.istockphoto.com/id/2156387160/photo/hispanic-latin-american-couple-software-engineer-developer-use-computer-work-on-program.jpg?s=612x612&w=is&k=20&c=S1n41SwB5F6ESsSZvYzIB2dFwMNL2VYBwK0EgedQ0zo=",
     "category": "Programming"
   },
   {
@@ -248,7 +248,7 @@
     "rating": 4.5,
     "slotsAvailable": 9,
     "description": "Stay fit with simple home-based workouts.",
-    "image": "https://i.postimg.cc/skill21.png",
+    "image": "https://media.istockphoto.com/id/2158551700/photo/two-hispanic-programmers-reviewing-code-on-a-laptop-in-a-modern-office.jpg?s=612x612&w=is&k=20&c=VieyD2wLhb9cd47nPjGAHp-J__ff490ozy_zIeWOUR0=",
     "category": "Fitness"
   },
   {
@@ -260,7 +260,7 @@
     "rating": 4.9,
     "slotsAvailable": 5,
     "description": "Improve mindfulness and flexibility with yoga.",
-    "image": "https://i.postimg.cc/skill22.png",
+    "image": "https://images.pexels.com/photos/6572615/pexels-photo-6572615.jpeg",
     "category": "Fitness"
   },
   {
@@ -272,7 +272,7 @@
     "rating": 4.3,
     "slotsAvailable": 6,
     "description": "Learn simple home decoration techniques.",
-    "image": "https://i.postimg.cc/skill23.png",
+    "image": "https://images.pexels.com/photos/6474300/pexels-photo-6474300.jpeg",
     "category": "Home Improvement"
   },
   {
@@ -284,7 +284,7 @@
     "rating": 4.6,
     "slotsAvailable": 8,
     "description": "Create handmade craft items from simple materials.",
-    "image": "https://i.postimg.cc/skill24.png",
+    "image": "https://images.pexels.com/photos/7898406/pexels-photo-7898406.jpeg",
     "category": "Art"
   },
   {
@@ -296,7 +296,7 @@
     "rating": 4.7,
     "slotsAvailable": 2,
     "description": "Learn safe and confident driving.",
-    "image": "https://i.postimg.cc/skill25.png",
+    "image": "https://images.pexels.com/photos/9518017/pexels-photo-9518017.jpeg",
     "category": "Driving"
   },
   {
@@ -308,7 +308,7 @@
     "rating": 4.5,
     "slotsAvailable": 5,
     "description": "Fix simple issues and maintain your car.",
-    "image": "https://i.postimg.cc/skill26.png",
+    "image": "https://images.pexels.com/photos/8478275/pexels-photo-8478275.jpeg",
     "category": "Automotive"
   },
   {
@@ -320,7 +320,7 @@
     "rating": 4.4,
     "slotsAvailable": 7,
     "description": "Grow plants, vegetables, and maintain a small garden.",
-    "image": "https://i.postimg.cc/skill27.png",
+    "image": "https://images.pexels.com/photos/7342638/pexels-photo-7342638.jpeg",
     "category": "Gardening"
   },
   {
@@ -332,7 +332,7 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Learn safe wiring and basic electrical fixing.",
-    "image": "https://i.postimg.cc/skill28.png",
+    "image": "https://images.pexels.com/photos/7217966/pexels-photo-7217966.jpeg",
     "category": "Home Improvement"
   },
   {
@@ -344,7 +344,7 @@
     "rating": 4.8,
     "slotsAvailable": 6,
     "description": "Learn to sew clothes and operate machines.",
-    "image": "https://i.postimg.cc/skill29.png",
+    "image": "https://images.pexels.com/photos/6766291/pexels-photo-6766291.jpeg",
     "category": "Tailoring"
   },
   {
@@ -356,11 +356,11 @@
     "rating": 4.5,
     "slotsAvailable": 4,
     "description": "Learn charcoal sketching with shading techniques.",
-    "image": "https://i.postimg.cc/skill30.png",
+    "image": "https://images.pexels.com/photos/7605916/pexels-photo-7605916.jpeg",
     "category": "Art"
   },
   {
-    "skillId": 1,
+    "skillId": 31,
     "skillName": "Beginner Guitar Lessons",
     "providerName": "Alex Martin",
     "providerEmail": "alex@skillswap.com",
@@ -368,11 +368,11 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://images.pexels.com/photos/8190069/pexels-photo-8190069.jpeg",
     "category": "Music"
   },
   {
-    "skillId": 2,
+    "skillId": 32,
     "skillName": "Digital Marketing Basics",
     "providerName": "Sara Ahmed",
     "providerEmail": "sara@skillswap.com",
@@ -380,11 +380,11 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Learn SEO, social media, and marketing fundamentals.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://images.pexels.com/photos/7681097/pexels-photo-7681097.jpeg",
     "category": "Marketing"
   },
   {
-    "skillId": 3,
+    "skillId": 33,
     "skillName": "Basic Photography Skills",
     "providerName": "John Carter",
     "providerEmail": "john@skillswap.com",
@@ -392,11 +392,11 @@
     "rating": 4.4,
     "slotsAvailable": 4,
     "description": "Master camera settings and composition techniques.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://images.pexels.com/photos/11022628/pexels-photo-11022628.jpeg",
     "category": "Photography"
   },
   {
-    "skillId": 4,
+    "skillId": 34,
     "skillName": "Cooking: Home Style Meals",
     "providerName": "Lina Wong",
     "providerEmail": "lina@skillswap.com",
@@ -404,11 +404,11 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Learn to cook simple and delicious meals.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://images.pexels.com/photos/10432431/pexels-photo-10432431.jpeg",
     "category": "Cooking"
   },
   {
-    "skillId": 5,
+    "skillId": 35,
     "skillName": "Web Development (HTML & CSS)",
     "providerName": "Mohammad Yusuf",
     "providerEmail": "yusuf@skillswap.com",
@@ -416,11 +416,11 @@
     "rating": 4.9,
     "slotsAvailable": 6,
     "description": "Learn how to build responsive websites.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://images.pexels.com/photos/12899182/pexels-photo-12899182.jpeg",
     "category": "Programming"
   },
   {
-    "skillId": 6,
+    "skillId": 36,
     "skillName": "Beginner Yoga Class",
     "providerName": "Emily Johnson",
     "providerEmail": "emily@skillswap.com",
@@ -428,11 +428,11 @@
     "rating": 4.3,
     "slotsAvailable": 10,
     "description": "Start your yoga journey with basic poses.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://images.pexels.com/photos/4853689/pexels-photo-4853689.jpeg",
     "category": "Fitness"
   },
   {
-    "skillId": 7,
+    "skillId": 37,
     "skillName": "English Speaking Practice",
     "providerName": "Rahim Uddin",
     "providerEmail": "rahim@skillswap.com",
@@ -440,11 +440,11 @@
     "rating": 4.5,
     "slotsAvailable": 8,
     "description": "Improve your spoken English with real conversations.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://images.pexels.com/photos/4943722/pexels-photo-4943722.jpeg",
     "category": "Language"
   },
   {
-    "skillId": 8,
+    "skillId": 38,
     "skillName": "Basic Drawing & Sketching",
     "providerName": "Anna Lee",
     "providerEmail": "anna@skillswap.com",
@@ -452,11 +452,11 @@
     "rating": 4.2,
     "slotsAvailable": 5,
     "description": "Learn pencil sketching and shading techniques.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://images.pexels.com/photos/7283265/pexels-photo-7283265.jpeg",
     "category": "Art"
   },
   {
-    "skillId": 9,
+    "skillId": 39,
     "skillName": "Mobile App Development (React Native)",
     "providerName": "Kevin Smith",
     "providerEmail": "kevin@skillswap.com",
@@ -464,11 +464,11 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Build cross-platform mobile apps from scratch.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://images.pexels.com/photos/1181341/pexels-photo-1181341.jpeg",
     "category": "Programming"
   },
   {
-    "skillId": 10,
+    "skillId": 40,
     "skillName": "Video Editing Essentials",
     "providerName": "Sophia Turner",
     "providerEmail": "sophia@skillswap.com",
@@ -476,11 +476,11 @@
     "rating": 4.6,
     "slotsAvailable": 3,
     "description": "Learn to edit videos for YouTube and social media.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://images.pexels.com/photos/6919966/pexels-photo-6919966.jpeg",
     "category": "Media"
   },
   {
-    "skillId": 11,
+    "skillId": 41,
     "skillName": "Mathematics Tutoring (High School)",
     "providerName": "David Kim",
     "providerEmail": "david@skillswap.com",
@@ -488,11 +488,11 @@
     "rating": 4.7,
     "slotsAvailable": 7,
     "description": "Algebra, geometry, and basic trigonometry lessons.",
-    "image": "https://i.postimg.cc/example11.png",
+    "image": "https://images.pexels.com/photos/3768129/pexels-photo-3768129.jpeg",
     "category": "Education"
   },
   {
-    "skillId": 12,
+    "skillId": 42,
     "skillName": "Public Speaking Training",
     "providerName": "Aisha Khan",
     "providerEmail": "aisha@skillswap.com",
@@ -500,11 +500,11 @@
     "rating": 4.8,
     "slotsAvailable": 5,
     "description": "Boost your confidence and presentation skills.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://images.pexels.com/photos/34774345/pexels-photo-34774345.jpeg",
     "category": "Communication"
   },
   {
-    "skillId": 13,
+    "skillId": 43,
     "skillName": "Graphic Design with Canva",
     "providerName": "Michael Brown",
     "providerEmail": "michael@skillswap.com",
@@ -512,11 +512,11 @@
     "rating": 4.4,
     "slotsAvailable": 6,
     "description": "Create social media posts and simple designs easily.",
-    "image": "https://i.postimg.cc/example13.png",
+    "image": "https://media.istockphoto.com/id/1415537875/photo/asian-graphic-designer-working-in-office-artist-creative-designer-illustrator-graphic-skill.jpg?s=612x612&w=is&k=20&c=zIRirXeGJ4ft-1B3DvuT_loLu4zRl88vCaHjjQlK66Y=",
     "category": "Design"
   },
   {
-    "skillId": 14,
+    "skillId": 44,
     "skillName": "Advanced Excel Training",
     "providerName": "Jenny Moore",
     "providerEmail": "jenny@skillswap.com",
@@ -524,11 +524,11 @@
     "rating": 4.7,
     "slotsAvailable": 4,
     "description": "Master formulas, charts, and data analysis.",
-    "image": "https://i.postimg.cc/example14.png",
+    "image": "https://images.pexels.com/photos/7709190/pexels-photo-7709190.jpeg",
     "category": "Business"
   },
   {
-    "skillId": 15,
+    "skillId": 45,
     "skillName": "Fitness: Strength Training Basics",
     "providerName": "Carlos Diaz",
     "providerEmail": "carlos@skillswap.com",
@@ -536,11 +536,11 @@
     "rating": 4.5,
     "slotsAvailable": 9,
     "description": "Learn proper form and basic strength workouts.",
-    "image": "https://i.postimg.cc/example15.png",
+    "image": "https://images.pexels.com/photos/6203649/pexels-photo-6203649.jpeg",
     "category": "Fitness"
   },
   {
-    "skillId": 16,
+    "skillId": 46,
     "skillName": "Bangla Handwriting Improvement",
     "providerName": "Nusrat Jahan",
     "providerEmail": "nusrat@skillswap.com",
@@ -548,7 +548,7 @@
     "rating": 4.3,
     "slotsAvailable": 10,
     "description": "Improve handwriting style & clarity in Bangla.",
-    "image": "https://i.postimg.cc/example16.png",
+    "image": "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg",
     "category": "Education"
   }
 ]

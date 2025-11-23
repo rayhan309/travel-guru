@@ -1,6 +1,6 @@
 import { FaStar, FaEnvelope, FaUserTie } from "react-icons/fa";
 import { Link } from "react-router";
-import img1 from '../assets/logo.jpg'
+// import img1 from '../assets/logo.jpg'
 
 const SkillsCard = ({ skill }) => {
   const {
@@ -12,12 +12,13 @@ const SkillsCard = ({ skill }) => {
     slotsAvailable,
     description,
     category,
+    image,
   } = skill;
 
   return (
-    <div className="card bg-white shadow-xl my-font my-card">
+    <div className="card bg-white shadow-xl my-font my-card cursor-pointer">
       <figure>
-        <img src={img1} alt={skillName} className="h-52 w-full object-cover" />
+        <img src={image} alt={skillName} className="h-52 w-full object-cover" />
       </figure>
 
       <div className="card-body">
