@@ -1,12 +1,10 @@
-import { FaStar, FaEnvelope, FaUserTie } from "react-icons/fa";
-import { Link } from "react-router";
-// import img1 from '../assets/logo.jpg'
+import { FaStar } from "react-icons/fa";
+import { Link } from "react-router"; 
 
 const SkillsCard = ({ skill }) => {
   const {
-    skillName,
-    providerName,
-    providerEmail,
+    skillId,
+    skillName, 
     price,
     rating,
     slotsAvailable,
@@ -31,17 +29,17 @@ const SkillsCard = ({ skill }) => {
         {/* Description */}
         <p className="text-sm text-gray-600">{description}</p>
 
-        {/* Provider */}
+        {/* Provider
         <div className="flex items-center gap-2 mt-2">
           <FaUserTie className="text-primary" />
           <span className="font-semibold">{providerName}</span>
-        </div>
+        </div> */}
 
-        {/* Email */}
+        {/* Email
         <div className="flex items-center gap-2 text-sm text-gray-500">
           <FaEnvelope />
           <span>{providerEmail}</span>
-        </div>
+        </div> */}
 
         {/* Rating & Price */}
         <div className="flex">
@@ -60,7 +58,7 @@ const SkillsCard = ({ skill }) => {
 
         {/* Button */}
         <div className="card-actions mt-4">
-          <Link className="btn btn-secondary w-full">
+          <Link to={`/skillsDitailes/${skillId}`} className="btn btn-secondary w-full">
             View Details
           </Link>
         </div>

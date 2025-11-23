@@ -2,12 +2,11 @@ import { useLoaderData } from "react-router";
 import SkillsCard from "../components/SkillsCard";
 
 const AllSkills = () => {
-  const data = useLoaderData();
-  console.log(data);
+   const data = useLoaderData();
 
   // search Handle
   const searchHandle = () => {
-    alert("hello");
+    // alert("hello");
   };
 
   return (
@@ -38,7 +37,12 @@ const AllSkills = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input type="search" className="grow" onChange={searchHandle} placeholder="Search" />
+          <input
+            type="search"
+            className="grow"
+            onChange={searchHandle}
+            placeholder="Search"
+          />
           <kbd className="kbd kbd-sm">⌘</kbd>
           <kbd className="kbd kbd-sm">K</kbd>
         </label>
@@ -46,7 +50,7 @@ const AllSkills = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
         {data.map((skill) => (
-          <SkillsCard skill={skill} />
+          <SkillsCard key={skill?.skillId} skill={skill} />
         ))}
       </div>
     </div>

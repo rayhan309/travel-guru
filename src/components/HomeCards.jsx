@@ -4,8 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const HomeCards = () => {
 
-    const data = useLoaderData();
-    console.log(data)
+    const data = useLoaderData(); 
 
     return (
         <div className="my-16 container mx-auto">
@@ -13,7 +12,7 @@ const HomeCards = () => {
             
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10">
                 {
-                data.map(skill => <SkillsCard skill={skill} />)
+                data.map(skill => <SkillsCard key={skill?.skillId} skill={skill} />)
             }
             </div>
 
