@@ -2,16 +2,18 @@ import { AiTwotoneHome } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { Link, NavLink } from "react-router";
 import logo from '../assets/logo.jpg'
+import { FiLogIn } from "react-icons/fi";
 
 const Navber = () => {
 
     const links = <>
-    <li><NavLink to={'/'} className={'bg-white mr-3'}><AiTwotoneHome /> Home</NavLink></li>
-    <li><NavLink className={'bg-white'}><CgProfile /> My Profile</NavLink></li>
+    <li><NavLink to={'/'}><AiTwotoneHome /> Home</NavLink></li>
+    <li><NavLink to={'/allskills'}>All Skills</NavLink></li>
+    <li><NavLink to={'/profile'}><CgProfile /> My Profile</NavLink></li>
     </>
 
   return (
-    <div className="shadow-sm font-bold pt-2">
+    <div className="shadow-sm font-bold bg-pink-100">
     <div className="navbar w-11/12 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
@@ -39,7 +41,7 @@ const Navber = () => {
            {links}
           </ul>
         </div>
-        <div className="flex items-center gap-2"><img className="w-16 h-16 rounded-full object-cover" src={logo} alt="" /><span className="text-3xl font-bold text-white">SkillSwap</span></div>
+        <div className="flex items-center gap-2"><img className="w-12 h-12 rounded-full object-cover" src={logo} alt="" /><span className="text-3xl font-bold text-pink-500">SkillSwap</span></div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -47,8 +49,7 @@ const Navber = () => {
         </ul>
       </div>
       <div className="navbar-end gap-4">
-        <Link className="btn  btn-primary">SingUp</Link>
-        <Link className="btn  btn-secondary">SigIn</Link>
+        <Link className="btn font-bold btn-outline btn-secondary"><FiLogIn /> SigIn</Link>
       </div>
     </div>
     </div>
