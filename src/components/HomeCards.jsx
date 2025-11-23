@@ -26,7 +26,7 @@ const HomeCards = () => {
 
         <Link
           to={"/allskills"}
-          className="btn btn-secondary shadow-2xl my-font mt-10 ml-[46%]"
+          className="btn btn-secondary shadow-2xl my-font mt-10 ml-[45%] m-auto"
         >
           <FaArrowRightLong /> Show All Sills
         </Link>

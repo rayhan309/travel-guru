@@ -34,9 +34,9 @@ const TopProviders = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4 my-font mb-10 gap-10 container mx-auto">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 my-font mb-10 gap-10 container mx-auto">
       {topProviders.map((provider) => (
-        <div className="relative shadow-xl cursor-pointer rounded-xl p-5 border-2 animated-border transition duration-300 my-card">
+        <div data-aos="zoom-out" className="relative shadow-xl cursor-pointer rounded-xl p-5 border-2 animated-border transition duration-300 my-card">
           <div className="relative z-10 bg-white/10 backdrop-blur-lg rounded-xl p-5 flex flex-col items-center">
             <img
               src={provider.image}

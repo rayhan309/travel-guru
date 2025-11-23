@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { FaEnvelope, FaStar, FaUserTie } from "react-icons/fa";
 import { Link, useLoaderData, useParams } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
-import Swal from "sweetalert2";
+import Loader from "../components/Loader";
+
 
 const SkillDitailes = () => {
   const { id } = useParams();
@@ -37,7 +38,7 @@ const SkillDitailes = () => {
   };
  
   return loading ? (
-    <p>Loading....</p>
+    <Loader />
   ) : (
     <div className="">
       {/* cards */} 
@@ -55,28 +56,28 @@ const SkillDitailes = () => {
 
           <div>
             <div className="card-body space-y-5 mt-7">
-              {/* Category */}
+              {/* cg */}
               <span className="badge badge-secondary w-fit">{category}</span>
 
-              {/* Title */}
+              {/* tl */}
               <h2 className="card-title text-xl font-semibold">{skillName}</h2>
 
-              {/* Description */}
+              {/* des */}
               <p className="text-sm text-gray-600">{description}</p>
 
-              {/* Provider */}
+              {/* pd */}
               <div className="flex items-center gap-2 mt-2">
                 <FaUserTie className="text-primary" />
                 <span className="font-semibold">{providerName}</span>
               </div>
 
-              {/* Email */}
+              {/* em */}
               <div className="flex items-center gap-2 text-sm text-gray-500">
                 <FaEnvelope />
                 <span>{providerEmail}</span>
               </div>
 
-              {/* Rating & Price */}
+              {/* R & P */}
               <div className="flex">
                 <div className="flex items-center gap-1">
                   <FaStar className="text-yellow-500" />

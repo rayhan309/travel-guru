@@ -133,7 +133,7 @@ const Singin = () => {
               to="/authlayout/signup"
             >
               Dont Have Account?{" "}
-              <span className="text-pink-400 cursor-pointer hover:underline">
+              <span className="cursor-pointer hover:underline">
                 {" "}
                 Please SignUp
               </span>

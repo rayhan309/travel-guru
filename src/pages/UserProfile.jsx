@@ -40,11 +40,11 @@ const UserProfile = () => {
         ) : (
           <img src={useimg} alt="userimg" />
         )}
-        <h2 className="text-2xl text-pink-500 mt-2 my-font font-semibold text-center">
+        <h2 className="text-2xl text-pink-500 mt-4 my-font font-semibold text-center">
           Hi 👋 {user?.displayName}
         </h2>
         <div className="flex justify-center">
-          <div className="flex items-center gap-1.5 text-pink-300 text-center font-medium my-font">
+          <div className="flex items-center gap-1.5 text-pink-500 text-center font-medium my-font">
             <HiOutlineMail />
             <p> {user?.email}</p>
           </div>

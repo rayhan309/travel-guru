@@ -16,10 +16,10 @@ const Banner = () => {
     <div className="container mx-auto max-h-[600px] mt-7">
       {" "}
       <Swiper
-        effect={"coverflow"}
+        effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
+        slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -27,7 +27,7 @@ const Banner = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={{ clickable: true }}
+        pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >

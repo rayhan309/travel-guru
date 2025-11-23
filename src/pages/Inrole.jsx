@@ -36,9 +36,9 @@ const Inrole = () => {
         </div>
           <div className="w-full max-w-md backdrop-blur-lg bg-white/10 border border-white/20 shadow-2xl rounded-2xl p-8">
             <form onSubmit={siginHandle}>
-                <h3 className="text-xl my-font text-center text-pink-400 font-semibold my-5">Infomation!</h3>
+                <h3 className="text-xl my-font text-center text-pink-400 font-semibold my-5">Information!</h3>
               <fieldset className="fieldset">
-                {/* email */}
+                {/* ml */}
                 <label className="label font-bold text-white">Email</label>
                 <input
                   type="email"

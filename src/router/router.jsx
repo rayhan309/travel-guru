@@ -10,7 +10,8 @@ import SignUp from "../pages/SignUp";
 import UserProfile from "../pages/UserProfile";
 import PrivteRouts from "../Providet/PrivteRouts";
 import Inrole from "../pages/Inrole";
-import Teast from "../components/teast";
+import Loader from "../components/Loader";
+
 
 export const router = createBrowserRouter([
   {
@@ -20,13 +21,13 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <HomeCards />,
-        hydrateFallbackElement: <p>Loading......</p>,
+        hydrateFallbackElement: <Loader />,
         loader: () => fetch("/skills.json"),
       },
       {
         path: "/allskills",
         element: <AllSkills />,
-        hydrateFallbackElement: <p>Loading......</p>,
+        hydrateFallbackElement: <Loader />,
         loader: () => fetch("/AllSkills.json"),
       },
       {
@@ -46,7 +47,7 @@ export const router = createBrowserRouter([
         element: <PrivteRouts>
           <SkillDitailes />
         </PrivteRouts>,
-        hydrateFallbackElement: <p>Loading......</p>,
+        hydrateFallbackElement: <Loader />,
         loader: () => fetch("/AllSkills.json"),
       },
     ],
@@ -70,9 +71,5 @@ export const router = createBrowserRouter([
     element: <PrivteRouts>
       <Inrole />
     </PrivteRouts>
-  },
-  {
-    path: '/teast',
-    Component: <Teast />
-  }
+  } 
 ]);

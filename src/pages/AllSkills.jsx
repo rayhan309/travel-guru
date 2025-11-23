@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router";
 import SkillsCard from "../components/SkillsCard";
 import { useEffect, useState } from "react";
+import Loader from "../components/Loader";
 
 const AllSkills = () => {
   const data = useLoaderData();
@@ -21,7 +22,7 @@ const AllSkills = () => {
   return (
     <>
       {loading ? (
-        <p>Loading......</p>
+        <Loader />
       ) : (
         <div className="my-8 container mx-auto">
           <h2 className="text-3xl font-bold text-center my-font text-pink-400">

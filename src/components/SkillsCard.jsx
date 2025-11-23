@@ -1,10 +1,13 @@
 import { FaStar } from "react-icons/fa";
-import { Link } from "react-router"; 
+import { Link } from "react-router";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SkillsCard = ({ skill }) => {
   const {
     skillId,
-    skillName, 
+    skillName,
     price,
     rating,
     slotsAvailable,
@@ -13,8 +16,16 @@ const SkillsCard = ({ skill }) => {
     image,
   } = skill;
 
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+    AOS.refresh(); 
+  }, []);
+
   return (
-    <div className="card bg-white shadow-xl my-font my-card cursor-pointer">
+    <div
+      data-aos="zoom-in" 
+      className="card bg-white shadow-xl my-font my-card cursor-pointer"
+    >
       <figure>
         <img src={image} alt={skillName} className="h-52 w-full object-cover" />
       </figure>
@@ -26,22 +37,9 @@ const SkillsCard = ({ skill }) => {
         {/* Title */}
         <h2 className="card-title text-xl font-semibold">{skillName}</h2>
 
-        {/* Description */}
+        {/* des */}
         <p className="text-sm text-gray-600">{description}</p>
-
-        {/* Provider
-        <div className="flex items-center gap-2 mt-2">
-          <FaUserTie className="text-primary" />
-          <span className="font-semibold">{providerName}</span>
-        </div> */}
-
-        {/* Email
-        <div className="flex items-center gap-2 text-sm text-gray-500">
-          <FaEnvelope />
-          <span>{providerEmail}</span>
-        </div> */}
-
-        {/* Rating & Price */}
+        {/* pr */}
         <div className="flex">
           <div className="flex items-center gap-1">
             <FaStar className="text-yellow-500" />
@@ -51,14 +49,17 @@ const SkillsCard = ({ skill }) => {
           <p className="text-lg text-right font-medium">Price: ${price}</p>
         </div>
 
-        {/* Slots */}
+        {/* sl */}
         <p className="text-sm mt-1">
           Available Slots: <b>{slotsAvailable}</b>
         </p>
 
         {/* Button */}
         <div className="card-actions mt-4">
-          <Link to={`/skillsDitailes/${skillId}`} className="btn btn-secondary w-full">
+          <Link
+            to={`/skillsDitailes/${skillId}`}
+            className="btn btn-secondary w-full"
+          >
             View Details
           </Link>
         </div>

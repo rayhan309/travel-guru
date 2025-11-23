@@ -7,7 +7,7 @@ const Work = () => {
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div className="animated-card w-full cursor-pointer">
+      <div data-aos="zoom-out" className="animated-card w-full cursor-pointer">
         <div className="relative z-10 flex flex-col items-center space-y-4 p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-lg hover:scale-105 transition-transform duration-700">
           <div className="w-16 h-16 flex items-center justify-center bg-pink-500 rounded-full text-white text-xl font-bold animate-bounce">
             1
@@ -18,7 +18,7 @@ const Work = () => {
           </p>
         </div>
       </div>
-      <div className="animated-card w-full cursor-pointer">
+      <div data-aos="zoom-out" className="animated-card w-full cursor-pointer">
         <div className="relative z-10 flex flex-col items-center space-y-4 p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-lg hover:scale-105 transition-transform duration-700">
           <div className="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full text-white text-xl font-bold animate-bounce">
             2
@@ -30,7 +30,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="animated-card w-full cursor-pointer">
+      <div data-aos="zoom-out" className="animated-card w-full cursor-pointer">
         <div className="relative z-10 flex flex-col items-center space-y-4 p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-lg hover:scale-105 transition-transform duration-700">
           <div className="w-16 h-16 flex items-center justify-center bg-green-500 rounded-full text-white text-xl font-bold animate-bounce">
             3
@@ -42,7 +42,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="animated-card w-full cursor-pointer">
+      <div data-aos="zoom-out" className="animated-card w-full cursor-pointer">
         <div className="relative z-10 flex flex-col items-center space-y-4 p-6 rounded-2xl bg-white/10 backdrop-blur-lg shadow-lg hover:scale-105 transition-transform duration-700">
           <div className="w-16 h-16 flex items-center justify-center bg-yellow-500 rounded-full text-white text-xl font-bold animate-bounce">
             4
