@@ -5,10 +5,10 @@ import logo from '../assets/logo.jpg'
 
 const Footer = () => {
   return (
-    <footer className="footer my-font sm:footer-horizontal bg-pink-500 text-neutral-content p-10">
+    <footer className="footer my-font sm:footer-horizontal bg-gradient-to-br from-pink-200 via-purple-400 to-pink-200 text-neutral-content p-10">
       <nav>
         <div className="flex gap-2 items-center">
-          <img className="w-12 opacity-70 h-12 rounded-full" src={logo} alt="logo" />
+          <img className="w-12 opacity-95 h-12 rounded-full" src={logo} alt="logo" />
           <h6 className="footer-title text-xl">SkillSwap</h6>
         </div>
         <p className="w-62 pl-10 mt-3">Discription: This Website is a best cours all time this cours is roules very simple, 

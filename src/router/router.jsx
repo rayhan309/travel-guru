@@ -10,6 +10,7 @@ import SignUp from "../pages/SignUp";
 import UserProfile from "../pages/UserProfile";
 import PrivteRouts from "../Providet/PrivteRouts";
 import Inrole from "../pages/Inrole";
+import Teast from "../components/teast";
 
 export const router = createBrowserRouter([
   {
@@ -69,5 +70,9 @@ export const router = createBrowserRouter([
     element: <PrivteRouts>
       <Inrole />
     </PrivteRouts>
+  },
+  {
+    path: '/teast',
+    Component: <Teast />
   }
 ]);

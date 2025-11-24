@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 import { AuthContext } from "./AuthContext";
 import { auth } from "../Firebase/Firebase.config";
 import { useEffect, useState } from "react";
@@ -44,13 +44,20 @@ const signOutUser = () => {
 }
 
 
+// FORGET PASSWORD
+const forgetPassword = (email) =>{
+  return sendPasswordResetEmail(auth, email) 
+}
+
   const authInfo = {
     createUser,
     siginUser,
     updateUser,
     user,
+    setUser,
     loading,
     signOutUser,
+    forgetPassword,
   };
 
   return <AuthContext value={authInfo}>{children}</AuthContext>;

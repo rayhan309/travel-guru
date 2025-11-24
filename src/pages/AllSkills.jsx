@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router";
 import SkillsCard from "../components/SkillsCard";
+import { useEffect } from "react";
 
 const AllSkills = () => {
    const data = useLoaderData();
@@ -9,9 +10,13 @@ const AllSkills = () => {
     // alert("hello");
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <div className="my-8 container mx-auto">
-      <h2 className="text-3xl font-bold text-center text-pink-400">
+      <h2 className="text-3xl font-bold text-center my-font text-pink-400">
         All Skills!
       </h2>
 

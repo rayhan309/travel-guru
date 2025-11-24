@@ -41,12 +41,12 @@ const Navber = () => {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Yes, delete it!",
+      confirmButtonText: "Yes, LogOut it!",
     }).then((result) => {
       if (result.isConfirmed) {
         Swal.fire({
-          title: "Deleted!",
-          text: "Your file has been deleted.",
+          title: "LogOuted!",
+          text: "Your Account has been LogOut.",
           icon: "success",
         });
         signOutUser();
@@ -56,7 +56,7 @@ const Navber = () => {
   };
 
   return (
-    <div className="shadow-sm font-bold bg-pink-100">
+    <div className="shadow-sm font-bold bg-gradient-to-br from-pink-200 via-purple-200 to-pink-200">
       <div className="navbar w-11/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

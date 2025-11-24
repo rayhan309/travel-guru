@@ -41,7 +41,7 @@ const SkillDitailes = () => {
   ) : (
     <div className="">
       {/* cards */} 
-      <div className="card bg-white p-2 m-2 mt-5 md:mt-14 my-font cursor-pointer">
+      <div className="card bg-gradient-to-br from-pink-200 via-purple-400 to-pink-200 p-2 m-2 mt-5 md:mt-14 my-font cursor-pointer">
         <div className="flex flex-col md:flex-row md:gap-7">
           <div className="md:w-[50%] w-full h-[80%]">
             <figure>
@@ -97,7 +97,7 @@ const SkillDitailes = () => {
               <div className="card-actions mt-4">
                 <Link
                   to={"/inrole"}
-                  className="btn btn-secondary w-full"
+                  className="btn bg-linear-to-r to-purple-500 from-pink-500 border-none text-white w-full"
                   onClick={enroleHandle}
                 >
                   Enroll Now
