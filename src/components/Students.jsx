@@ -15,6 +15,7 @@ const Students = ({studentsData}) => {
         {students.map((s) => (
           <div
             key={s.id}
+             data-aos="zoom-in"
             className="shadow-lg rounded-xl p-6 cursor-pointer border border-gray-200 hover:shadow-2xl transition duration-300"
           >
             <div className="flex items-center gap-4">
