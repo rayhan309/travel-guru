@@ -30,7 +30,7 @@ const Footer = () => {
           <Link to={'https://www.linkedin.com/feed/'} className="cursor-pointer">
             <Linkedin />
           </Link>
-          <Link to={'https://www.linkedin.com/feed/'} className="cursor-pointer">
+          <Link to={'https://www.youtube.com/'} className="cursor-pointer text-2xl">
             <FaYoutube />
           </Link>
 
