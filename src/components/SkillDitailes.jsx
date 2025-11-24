@@ -33,19 +33,17 @@ const SkillDitailes = () => {
 
   //   enrole handle
   const enroleHandle = () => {
-    toast.success("done")
+    toast.success("done");
   };
-
-
+ 
   return loading ? (
     <p>Loading....</p>
   ) : (
     <div className="">
-
-      {/* cards */}
-      <div className="card bg-white p-2 m-2 my-24 my-font cursor-pointer">
-        <div className="flex gap-7">
-          <div className="w-[50%] h-[80%]">
+      {/* cards */} 
+      <div className="card bg-white p-2 m-2 mt-5 md:mt-14 my-font cursor-pointer">
+        <div className="flex flex-col md:flex-row md:gap-7">
+          <div className="md:w-[50%] w-full h-[80%]">
             <figure>
               <img
                 src={image}
@@ -98,6 +96,7 @@ const SkillDitailes = () => {
               {/* Button */}
               <div className="card-actions mt-4">
                 <Link
+                  to={"/inrole"}
                   className="btn btn-secondary w-full"
                   onClick={enroleHandle}
                 >

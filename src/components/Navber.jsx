@@ -79,7 +79,7 @@ const Navber = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
             >
               {links}
             </ul>
@@ -98,7 +98,7 @@ const Navber = () => {
         </div>
         <div className="navbar-end gap-4">
           {user ? (
-            <img className="w-12 rounded-full" src={user?.photoURL}></img>
+            <img className="w-12 rounded-full cursor-pointer" title={user?.displayName} src={user?.photoURL}></img>
           ) : (
             <img className="rounded-2xl opacity-50" src={userImg} alt="user" />
           )}

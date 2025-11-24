@@ -1,5 +1,4 @@
-import { Outlet } from "react-router";
-import Banner from "../components/Banner";
+ import { Outlet } from "react-router";
 import Footer from "../components/Footer";
 import Navber from "../components/Navber";
 
@@ -7,8 +6,7 @@ const HomeLayout = () => {
   return (
     <div className="min-h-screen">
       <header>
-        <Navber />
-        <Banner />
+        <Navber /> 
       </header>
       <main className="img-1 min-h-[calc(100vh-258px)]">
         <section>

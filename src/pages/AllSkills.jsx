@@ -10,12 +10,12 @@ const AllSkills = () => {
   };
 
   return (
-    <div className="my-16 container mx-auto">
+    <div className="my-8 container mx-auto">
       <h2 className="text-3xl font-bold text-center text-pink-400">
         All Skills!
       </h2>
 
-      <div className="mt-7 flex justify-between items-center">
+      <div className="mt-12 flex justify-between items-center">
         <span className="text-xl font-semibold">
           Skills (<span className="text-pink-500">{data.length}</span>) Founds
         </span>

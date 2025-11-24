@@ -11,7 +11,7 @@ const DitailesLayout = () => {
             <main className="max-h-[calc(100vh-285px)]">
                 <Outlet />
             </main>
-            <footer>
+            <footer className="mt-60">
                 <Footer />
             </footer>
         </div>
