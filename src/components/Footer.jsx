@@ -1,10 +1,11 @@
 import { Linkedin } from "lucide-react";
-import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router";
 import logo from '../assets/logo.jpg'
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer my-font sm:footer-horizontal bg-gradient-to-br from-pink-200 via-purple-400 to-pink-200 text-neutral-content p-10">
       <nav>
         <div className="flex gap-2 items-center">
@@ -29,9 +30,19 @@ const Footer = () => {
           <Link to={'https://www.linkedin.com/feed/'} className="cursor-pointer">
             <Linkedin />
           </Link>
+          <Link to={'https://www.linkedin.com/feed/'} className="cursor-pointer">
+            <FaYoutube />
+          </Link>
+
         </div>
       </nav>
     </footer>
+
+    <div className="bg-gradient-to-br from-pink-200 via-purple-400 to-pink-200 text-white text-center p-5 font-medium my-font">
+      <p>© Programming Hero 2025</p>
+    </div>
+
+    </>
   );
 };
 

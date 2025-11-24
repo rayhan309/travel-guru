@@ -61,7 +61,7 @@ const UserProfile = () => {
         <ToastContainer />
       </div>
 
-    <div className={`w-full mx-auto mt-10 max-w-md backdrop-blur-lg bg-white/10 border border-white/20 
+    <div className={`w-full mx-auto mt-6 max-w-md backdrop-blur-lg bg-white/10 border border-white/20 
 shadow-2xl rounded-2xl p-8 transition-all duration-[800ms] [transform-style:preserve-3d]
   ${card ? 'opacity-100 rotate-x-0' : 'opacity-0 rotate-x-90'}
 `}>

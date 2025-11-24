@@ -43,8 +43,8 @@ const SkillDitailes = () => {
     <div className="">
       {/* cards */} 
       <div className="card bg-gradient-to-br from-pink-200 via-purple-400 to-pink-200 p-2 m-2 mt-5 md:mt-14 my-font cursor-pointer">
-        <div className="flex flex-col md:flex-row md:gap-7">
-          <div className="md:w-[50%] w-full h-[80%]">
+        <div className="flex flex-col lg:flex-row md:gap-7">
+          <div className="lg:w-[50%] w-full">
             <figure>
               <img
                 src={image}

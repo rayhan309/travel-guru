@@ -59,7 +59,7 @@ const Singin = () => {
               features, and more.
             </p>
           </div>
-          <div className="w-full max-w-md backdrop-blur-lg bg-white/10 border border-white/20 shadow-2xl rounded-2xl p-8">
+          <div className="w-full max-w-md backdrop-blur-lg fade-slide-up bg-white/10 border border-white/20 shadow-2xl rounded-2xl p-8">
             <form className="space-y-5" onSubmit={siginHandle}>
               <fieldset className="fieldset">
                 <h2 className="text-2xl my-font font-semibold text-center text-white pb-2">

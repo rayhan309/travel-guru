@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Rahman",
+    "skill": "Spoken English",
+    "comment":
+      "I took a Spoken English class through SkillSwap. Absolutely an amazing experience!",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 2,
+    "name": "Hasib Ahmed",
+    "skill": "Graphic Design",
+    "comment":
+      "A great platform to learn Graphic Design! Instructor was very helpful.",
+    "rating": 4.8,
+    "image": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "id": 3,
+    "name": "Mariam Noor",
+    "skill": "Digital Marketing",
+    "comment":
+      "Course quality is excellent! The practical tasks really helped me improve my skills.",
+    "rating": 4.9,
+    "image": "https://i.pravatar.cc/150?img=28"
+  },
+  {
+    "id": 4,
+    "name": "Arif Hossain",
+    "skill": "Web Development",
+    "comment":
+      "Perfect! Learning through real projects helped me gain a lot of knowledge.",
+    "rating": 4.7,
+    "image": "https://i.pravatar.cc/150?img=33"
+  },
+  {
+    "id": 5,
+    "name": "Lamia Islam",
+    "skill": "Content Writing",
+    "comment":
+      "The instructor was very friendly. My writing skills improved a lot.",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=44"
+  },
+  {
+    "id": 6,
+    "name": "Nafis Chowdhury",
+    "skill": "Video Editing",
+    "comment":
+      "The best experience for learning video editing. Highly recommended!",
+    "rating": 4.9,
+    "image": "https://i.pravatar.cc/150?img=50"
+  }
+]

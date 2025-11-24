@@ -34,6 +34,9 @@ const TopProviders = () => {
   ];
 
   return (
+    <>
+    <div className="border-t border-dashed border-purple-500"></div>
+      <h3 className="text-4xl pt-16 font-bold my-font pb-5 text-purple-500 text-center">Top Providers</h3>
     <div className="grid md:grid-cols-2 lg:grid-cols-4 my-font mb-10 gap-10 container mx-auto">
       {topProviders.map((provider) => (
         <div data-aos="zoom-out" className="relative shadow-xl cursor-pointer rounded-xl p-5 border-2 animated-border transition duration-300 my-card">
@@ -59,6 +62,7 @@ const TopProviders = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 

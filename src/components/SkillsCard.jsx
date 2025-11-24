@@ -24,10 +24,10 @@ const SkillsCard = ({ skill }) => {
   return (
     <div
       data-aos="zoom-in" 
-      className="card bg-white shadow-xl my-font my-card cursor-pointer"
+      className="card border-neon shadow-xl mx-3 my-font my-card cursor-pointer"
     >
       <figure>
-        <img src={image} alt={skillName} className="h-52 w-full object-cover" />
+        <img src={image} alt={skillName} className="h-52 px-2 pt-2 w-full object-cover" />
       </figure>
 
       <div className="card-body">

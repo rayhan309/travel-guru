@@ -4,6 +4,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import Banner from "../components/Banner";
 import TopProviders from "./TopProviders";
 import Work from "./work";
+import Students from "./Students";
+
+const studentsData = fetch('/student.json').then(res => res.json());
 
 const HomeCards = () => {
   const data = useLoaderData();
@@ -18,7 +21,7 @@ const HomeCards = () => {
 
         <div className="border-b border-dashed border-pink-400 mt-3"></div>
 
-        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-5 mt-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
           {data.map((skill) => (
             <SkillsCard key={skill?.skillId} skill={skill} />
           ))}
@@ -32,8 +35,15 @@ const HomeCards = () => {
         </Link>
       </div>
 
+          {/* must providers sectiooj */}
       <TopProviders />
+
+
+      {/* ?work section  */}
       <Work />
+      {/* student r */}
+      <Students studentsData={studentsData}  />
+
     </>
   );
 };
