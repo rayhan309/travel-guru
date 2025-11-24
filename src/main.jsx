@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router";
 import { router } from "./router/router";
 import AuthProvider from "./Providet/AuthProvider";
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProvider>

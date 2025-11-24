@@ -30,3 +30,70 @@ a.active {
       margin-top: -5px;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
 }
+
+.animated-border {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+.animated-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    90deg,
+    #ff00c8,
+    #00dbff,
+    #00ff62,
+    #ffdd00,
+    #ff00c8
+  );
+  background-size: 400% 400%;
+  animation: borderMove 15s linear infinite;
+  z-index: 0;
+  border-radius: 18px; /* slightly larger than card */
+}
+
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 400% 50%; }
+}
+
+
+/* wor section er card */
+.animated-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  margin: 0 auto;
+}
+
+.animated-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px; /* Border width */
+  background: linear-gradient(
+    90deg,
+    #ff00c8,
+    #00dbff,
+    #00ff62,
+    #ffdd00,
+    #ff00c8,
+    #00FFFF,
+    #FF8C00,
+    #D3D3D3
+  );
+  background-size: 400% 400%;
+  animation: borderMove 25s linear infinite;
+  z-index: 0;
+  border-radius: 18px; /* Slightly bigger than card */
+}
+
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 400% 50%; }
+}
+

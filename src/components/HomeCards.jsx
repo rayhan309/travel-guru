@@ -1,11 +1,12 @@
 import { Link, useLoaderData } from "react-router";
 import SkillsCard from "./SkillsCard";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Banner from '../components/Banner'
+import Banner from "../components/Banner";
+import TopProviders from "./TopProviders";
+import Work from "./work";
 
 const HomeCards = () => {
   const data = useLoaderData();
-
   return (
     <>
       <Banner />
@@ -25,11 +26,14 @@ const HomeCards = () => {
 
         <Link
           to={"/allskills"}
-          className="btn btn-secondary my-font mt-10 ml-[46%]"
+          className="btn btn-secondary shadow-2xl my-font mt-10 ml-[46%]"
         >
           <FaArrowRightLong /> Show All Sills
         </Link>
       </div>
+
+      <TopProviders />
+      <Work />
     </>
   );
 };
