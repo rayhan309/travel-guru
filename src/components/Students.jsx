@@ -4,7 +4,6 @@ import { FaStar } from "react-icons/fa";
 const Students = ({studentsData}) => {
 
     const students = use(studentsData);
-    console.log(students)
   return (
     <section className="py-16 my-font">
       <h2 className="text-3xl md:text-4xl text-purple-400 font-bold  my-font text-center mb-10">

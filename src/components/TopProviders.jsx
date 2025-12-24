@@ -1,4 +1,5 @@
 import { FaStar } from "react-icons/fa";
+import jankarlogo from '../assets/Screenshot 2025-11-27 214104.png';
 
 const TopProviders = () => {
 
@@ -8,7 +9,7 @@ const TopProviders = () => {
       name: "Jhankar Mahbub",
       expertise: "Programmer",
       rating: 4.9,
-      image: "https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/467444869_10160351769061891_3964624160658220491_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=HdqrPTmbuRAQ7kNvwFM7k71&_nc_oc=Admw-qXcTE6fF7uaull1p8nEZKf6Wq4YQprFNcbzd0hoKquXh3k_Wfel4ZwdIewt_cs&_nc_zt=23&_nc_ht=scontent.fdac99-1.fna&_nc_gid=PnxUAC7HsMAsTaMkhWMbyA&oh=00_Afh9IKgTdASN4vtG2YriXpkwHbx09ekaxgxjosqF2SGmXQ&oe=6928DAD0",
+      image: {jankarlogo},
     },
     {
       id: 2,

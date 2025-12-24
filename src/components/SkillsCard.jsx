@@ -31,10 +31,11 @@ const SkillsCard = ({ skill }) => {
       </figure>
 
       <div className="card-body">
+
         {/* Category */}
         <span className="badge badge-secondary w-fit">{category}</span>
 
-        {/* Title */}
+        {/* title */}
         <h2 className="card-title text-xl font-semibold">{skillName}</h2>
 
         {/* des */}
